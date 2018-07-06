@@ -1,0 +1,1 @@
+Bowling quiz app created to demonstrate knowledge of HTML, CSS, JavaScript, jQuery

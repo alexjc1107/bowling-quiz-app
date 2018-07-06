@@ -1,0 +1,101 @@
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #003652;
+}
+
+main {
+  background-color: white;
+  opacity: .96;
+  max-width: 75%;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 2em;
+  padding: 1.25em;
+}
+
+h1, h2, p {
+  text-align: center;
+  margin-bottom: 1.5em;
+}
+
+legend, fieldset {
+  margin-bottom: .5em;
+}
+
+fieldset {
+  border: none;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+button {
+  font-family: "Roboto", sans-serif;
+  border: none;
+  color: white;
+  font-size: 1.25em;
+  width: 100%;
+  padding: .5em;
+  transition: 0.3s;
+}
+
+.green-button {
+  background-color: #439923;
+  opacity: 0.6;
+}
+
+.submit-button-red {
+  background-color: red;
+  opacity: 0.6;
+}
+
+.submit-button-red:hover, .submit-button-red:focus, .submit-button-red:active {
+  background-color: red;
+  opacity: 1;
+}
+
+label {
+  display: block;
+  padding: .5em;
+  transition: 0.3s;
+}
+
+label:hover, .selected-submit-green, label:active {
+  background-color: #439923;
+  opacity: 0.6;
+  color: white;
+}
+
+.selected-submit-green:hover, .selected-submit-green:focus, .selected-submit-green:active, .radio-selected, .green-button:hover, .green-button:focus, .green-button:active {
+  background-color: #439923;
+  opacity: 1;
+  color: white;
+}
+
+@media (min-width: 480px) {
+  html {
+    font-size: 18px;
+  }
+}
+
+@media (min-width: 720px) {
+  html {
+    font-size: 22px;
+  }
+  main {
+    max-width: 50%;
+  }
+}
+
+@media (min-width: 1080px) {
+  html {
+    font-size: 26px;
+  }
+  main {
+    max-width: 40%;
+  }
+}
